@@ -7,7 +7,7 @@ public class test11 {
             int cr = 300;
             if (cr < cf) {
                 throw new Exception("Cab Booking Cancelled You paid " + cf +
-                        " and got refund of " + cabr);
+                        " and got refund of " + cr);
             }
         } catch (Exception e) {
             System.out.println(e.getMessage());
